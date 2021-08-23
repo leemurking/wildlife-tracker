@@ -1,7 +1,7 @@
 # Wildlife Tracker.
 :satisfied:
-#### This is a java application that allows the user to create squads and add heroes to the squad , Friday july 2019
-#### By **OMONGE CALVINCE**&trade;
+#### This is a java application that allows the user to add sighted animals, new rangers and locations of sighting of the animals.
+#### By **GRANT OMONDI OKELLO**&trade;
 ## Description
 This application allows rangers to input and record details of animals.
 
@@ -9,7 +9,7 @@ This application allows rangers to input and record details of animals.
 ## Project setup instructions
 * Make sure you have all the Requirements of running Java apps installed such as JUnit, intellij, SDK, JDK.
 
-* Clone the project into your machine from https://github.com/calvince/Wildlife-Tracker .
+* Clone the project into your machine from https://github.com/leemurking/wildlife-tracker .
 
 * Gradle run javac Wildlife-Tracker2.java to compile and java wildlifetracker to run the program
 
@@ -33,9 +33,9 @@ This application allows rangers to input and record details of animals.
 
 
 ## Support and contact details
-contact me @ calmosh1421@gmail.com
+contact me @ jamesgrant964@gmail.com
 
 ### License
-The project is under[MIT license](https://github.com/calvince/Wildlife-Tracker/blob/master/LICENSE)
-Copyright &copy; 2019.All right reserved
+The project is under[MIT license](https://github.com/leemurking/wildlife-tracker/blob/master/LICENSE)
+Copyright &copy; 2021.All right reserved
 
