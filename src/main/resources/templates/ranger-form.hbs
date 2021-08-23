@@ -1,0 +1,42 @@
+{{#partial "styles"}}
+    <link rel='stylesheet' href='/css/styles.css'>
+{{/partial}}
+{{#partial "content"}}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="content">
+                <div id="slider">
+                    <figure>
+                        <img src="../../images/light.jpg">
+                        <img src="../../images/grim.jpeg">
+                        <img src="../../images/mwah.jpeg">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h1>Add a Ranger</h1>
+
+            <p>Add ranger here:</p>
+
+            <form action="/rangers" method="post">
+                <div class="form-group">
+                    <label for="name">Ranger Name</label>
+                    <input id="name" name="name" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="badge">Tag No</label>
+                    <input id="badge" name="badge" type="number" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-dark-green">ADD RANGER</button>
+            </form>
+        </div>
+        </div>
+    </div>
+
+
+
+{{/partial}}
+{{> layout.hbs}}

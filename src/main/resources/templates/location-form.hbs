@@ -1,0 +1,43 @@
+{{#partial "styles"}}
+    <link rel='stylesheet' href='/css/styles.css'>
+{{/partial}}
+{{#partial "content"}}
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="main-col">
+                <div class="content">
+                    <div id="slider">
+                        <figure>
+                            <img src="../../images/tre.jpeg">
+                            <img src="../../images/waaar.jpg">
+                            <img src="../../images/ele.jpeg">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <div class="col-md-6">
+                <h1>Add a Location</h1>
+                <p>Add location here:</p>
+                <form action="/locations" method="post">
+                    <div class="form-group">
+                        <label for="name"></label>
+                        <input id="name" name="name" type="text" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-dark-green">ADD LOCATION </button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{{/partial}}
+{{> layout.hbs}}
